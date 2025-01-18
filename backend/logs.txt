@@ -387,3 +387,13 @@ Email: d@gmail.com,
 Role: user, 
 Method: POST, 
 URL: /login
+
+Email: mahek@gmail.com,
+Role: User, 
+Method: POST, 
+URL: /signup
+
+Email: mahek@gmail.com,
+Role: user, 
+Method: POST, 
+URL: /login

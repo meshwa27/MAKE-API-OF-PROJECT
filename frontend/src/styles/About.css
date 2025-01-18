@@ -26,13 +26,13 @@ body {
   h1 {
     
     font-weight: bold;
-    color: #2575cb;
+    color: #2f2f30;
     margin-bottom: 20px;
   }
   
   p {
     font-size: 1.5rem;
-    color: #0056b3;
+    color: #434446;
     margin-bottom: 20px;
   }
   
@@ -44,7 +44,7 @@ body {
   
   li {
     font-size: 1.3rem;
-    color: #0056b3;
+    color:#2f2f30;
     margin-bottom: 10px;
   }
   

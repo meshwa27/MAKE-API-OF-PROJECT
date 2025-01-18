@@ -40,7 +40,7 @@ const Signup = () => {
     <div className="signup-container">
       <div className="container mt-5">
         <form onSubmit={handleSubmit}>
-          <h2>Sign Up</h2>
+          <h2 style={{color:'black'}}>Sign Up</h2>
 
           <div className="mb-3">
             <label className="form-label">Username</label>
@@ -80,7 +80,7 @@ const Signup = () => {
             <input type="password" className="form-control" name="confirmPassword" value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value ) } required />
           </div>
 
-          <button type="submit" className="btn btn-primary">
+          <button type="submit" className="btn" style={{backgroundColor:'black'}}>
             Sign Up
           </button>
           

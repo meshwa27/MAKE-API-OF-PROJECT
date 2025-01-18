@@ -36,8 +36,9 @@ const Edit = () => {
         withCredentials:true
     })
       .then((res) => {
+        
+        console.log(res);
         alert("User updated successfully");
-        console.log(res.data);
         navigate('/user');
       })
       .catch((err) => {
@@ -56,7 +57,7 @@ const Edit = () => {
     <div className="edit-container">
       <div className="container mt-5">
         <form onSubmit={handlesubmit} className="edit-user-form">
-          <h2>Edit User</h2>
+          <h2 style={{color:'black'}}>Edit User</h2>
           <div className="form-group">
             <label className="form-label">Username:</label>
             <input
@@ -115,7 +116,7 @@ const Edit = () => {
             </select>
           </div>
 
-          <button type="submit">Save Changes</button>
+          <button type="submit"  style={{backgroundColor:'black'}}>Save Changes</button>
         </form>
       </div>
     </div>
